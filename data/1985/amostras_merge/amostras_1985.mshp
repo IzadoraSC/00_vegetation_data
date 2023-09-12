@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE>
+    <FIELDS>
+      <FIELD TYPE="STRING">Source</FIELD>
+      <FIELD TYPE="LONGINT">Id</FIELD>
+      <FIELD TYPE="LONGINT">Class</FIELD>
+    </FIELDS>
+  </DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.8.2">
+    <TOOL library="shapes_tools" id="2" name="Merge Layers">
+      <OPTION type="boolean" id="SRCINFO" name="Add Source Information">true</OPTION>
+      <OPTION type="boolean" id="MATCH" name="Match Fields by Name">true</OPTION>
+      <OPTION type="boolean" id="DELETE" name="Delete">false</OPTION>
+      <INPUT_LIST type="shapes_list" id="INPUT" name="Layers">
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/agricultura.shp</FILE>
+        </INPUT>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/agua.shp</FILE>
+        </INPUT>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/cerradao_planicie.shp</FILE>
+        </INPUT>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/cerradao_serrano.shp</FILE>
+        </INPUT>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/cerrado_aberto.shp</FILE>
+        </INPUT>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/cerrado_denso.shp</FILE>
+        </INPUT>
+        <INPUT type="shapes_list" id="INPUT" name="Layers">
+          <FILE>C:/Users/User/Documents/GitHub/classification_vegetation/python/cerrado_rupestre.shp</FILE>
+        </INPUT>
+      </INPUT_LIST>
+      <OUTPUT type="shapes" id="MERGED" name="Merged Layer">Merged Layers</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>PROJCS["WGS_1984_UTM_Zone_23S",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["Degree",0.017453292519943295]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-45],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",10000000],UNIT["Meter",1]]</OGC_WKT>
+    <PROJ4>+proj=utm +a=6378137.000000 +b=6356752.314245 +zone=23 +south +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>

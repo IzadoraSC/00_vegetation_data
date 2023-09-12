@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="ret_env_pncm" id="ret_env_pncm">
+	<SimpleField name="MINX" type="float"></SimpleField>
+	<SimpleField name="MINY" type="float"></SimpleField>
+	<SimpleField name="MAXX" type="float"></SimpleField>
+	<SimpleField name="MAXY" type="float"></SimpleField>
+	<SimpleField name="CNTX" type="float"></SimpleField>
+	<SimpleField name="CNTY" type="float"></SimpleField>
+	<SimpleField name="AREA" type="float"></SimpleField>
+	<SimpleField name="PERIM" type="float"></SimpleField>
+	<SimpleField name="HEIGHT" type="float"></SimpleField>
+	<SimpleField name="WIDTH" type="float"></SimpleField>
+	<SimpleField name="area_km2" type="float"></SimpleField>
+</Schema>
+<Folder><name>ret_env_pncm</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#ret_env_pncm">
+		<SimpleData name="MINX">-47.061605000000000</SimpleData>
+		<SimpleData name="MINY">-7.338319444444420</SimpleData>
+		<SimpleData name="MAXX">-47.002878000000003</SimpleData>
+		<SimpleData name="MAXY">-7.255373000000000</SimpleData>
+		<SimpleData name="CNTX">-47.032241499999998</SimpleData>
+		<SimpleData name="CNTY">-7.296846222222210</SimpleData>
+		<SimpleData name="AREA">0.004871195842887</SimpleData>
+		<SimpleData name="PERIM">0.283346888888836</SimpleData>
+		<SimpleData name="HEIGHT">0.082946444444421</SimpleData>
+		<SimpleData name="WIDTH">0.058726999999998</SimpleData>
+		<SimpleData name="area_km2">59.487</SimpleData>
+	</SchemaData></ExtendedData>
+      <MultiGeometry><Polygon><outerBoundaryIs><LinearRing><coordinates>-47.061605,-7.33831944444442 -47.061605,-7.255373 -47.002878,-7.255373 -47.002878,-7.33831944444442 -47.061605,-7.33831944444442</coordinates></LinearRing></outerBoundaryIs></Polygon></MultiGeometry>
+  </Placemark>
+</Folder>
+</Document></kml>
