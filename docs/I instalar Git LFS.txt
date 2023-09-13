@@ -1,0 +1,21 @@
+I: instalar Git LFS
+
+II: verificar
+git lfs install
+
+III: acessar diretório/pasta do repositório no pc
+
+cd C:/....
+
+IV: associar um tipo de arquivo no seu repositório ao Git LFS
+
+gif lfs track "*.tif"
+
+V: Adicione um arquivo ao repositório correspondente à extensão associada:
+
+git add path/to/file.psd
+
+VI: Faça commit do arquivo e faça push dele no GitHub:
+git commit -m "add file.psd"
+git push
+
